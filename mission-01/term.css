@@ -1,0 +1,45 @@
+.content{
+  background-color: #cccccc;
+  width: 250px;
+  border-radius: 10px;
+}
+
+h3{
+  padding: 16px 0 0 16px;
+  font-size: 15px;
+}
+dt {
+  font-size: 16px;
+  font-weight: bold;
+  color: #296897;
+  padding-bottom: 4px;
+  margin: 0;
+}
+
+dd {
+  margin: 0;
+  font-size: 12px;
+}
+
+.web_container {
+  width: 220px;
+  padding: 0 16px 16px 16px;
+}
+
+.web_container::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.web_text {
+  width: 140px;
+}
+
+.web_left {
+  float: left;
+}
+
+.web_right {
+  float: right;
+}
