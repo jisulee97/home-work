@@ -1,0 +1,114 @@
+h3{
+  width: 55px;
+  font-size: 0.9375rem;
+  color: #ffff00;
+  position: relative;
+  top: -15px;
+}
+
+legend {
+  overflow: hidden;
+  position: absolute !important;
+  clip: rect(0, 0, 0, 0);
+  clip-path: inset(50%);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+fieldset {
+  width: 220px;
+  height: 105px;
+  padding: 12px;
+  background: #fff;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  position: relative;
+  top: -18px; right: 2px;
+}
+
+.login__Container {
+  margin: 50px;
+  width: 270px;
+  border-radius: 5px;
+  background: rgb(169, 163, 163);
+  position: absolute;
+}
+
+.login__Box {
+  width: 244px;
+  height: 161px;
+  border: 1px solid #ed552f;
+  padding: 12px;
+  border-radius: 5px;
+  font-size: 0.875rem;
+  background: linear-gradient(90deg, #ed552f 0%, #e8852e 100%);
+  position: relative;
+  top: -6px;
+  right: 5px;
+}
+
+.loginForm__Group {
+  position: relative;
+}
+
+.loginForm__Group__Inner {
+  margin-bottom: 4px;
+}
+
+.loginForm__Label {
+  display: inline-block;
+  width: 56px;
+  margin-right: 4px;
+}
+
+.loginForm__Input {
+  width: 90px;
+}
+
+.loginForm__Button {
+  width: 50px;
+  height: 53px;
+  color: #fff;
+  background: #ed552f;
+  padding: 4px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/* 회원가입 박스  */
+
+.member__Box {
+  border-top: 1px solid rgb(169, 163, 163);
+  margin-top: 30px;
+  padding-bottom: 10px;
+  padding: 8px 0;
+  position: relative;
+}
+
+.login__Box a {
+  color: #121212;
+  text-decoration: none;
+  font-size: 0.75rem;
+}
+
+.login__Box a:first-child{
+  position: absolute;
+  left: 0;
+  top: 12px;
+}
+
+.login__Box a:last-child{
+  position: absolute;
+  right: 0;
+  top: 12px;
+}
+
+.login__box a > i {
+  color: #ed552f;
+  font-weight: bold;
+}
