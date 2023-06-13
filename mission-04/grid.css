@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: #121212;
+}
+
+/* 전체 박스 */
+.news {
+  width: 400px;
+  display: grid;
+  grid-template-rows: 50px 150px;
+  grid-template-columns: repeat(8, 50px);
+  grid-template-areas:
+    "h3 h3 . . . . . add-more"
+    "img-box img-box img-box renewal renewal renewal renewal renewal";
+}
+
+/* 새소식 타이틀 */
+h3 {
+  padding: 13px;
+  color: orangered;
+  font-size: 16px;
+  grid-area: h3;
+}
+
+/* 더보기 */
+.add-more {
+  grid-area: add-more;
+  padding: 12px 0;
+}
+
+/* 이미지 박스 */
+.img-box {
+  grid-area: img-box;
+  text-align: center;
+  border-top: 2px solid #A9A9A9;
+
+}
+
+.image-title{
+  width: 150px;
+}
+
+.img-box img{
+  width: 150px;
+  padding-top: 12px;
+}
+
+/* 리뉴얼 박스 디자인 */
+.renewal-box {
+  font-size: 14px;
+  grid-area: renewal;
+  border-top: 2px solid transparent;
+  border-top: 2px solid #e4d9d9;
+  padding-top: 12px;
+}
+
+.renewal-content{
+  display: block;
+  font-size: 14px;
+  padding: 10px 0;
+}
+
+.renewal-date{
+  display: block;
+  font-size: 14px;
+  padding: 8px 0;
+}
+
+.renewal-title{
+  font-size: 16px;
+  font-weight: 700;
+  
+}
