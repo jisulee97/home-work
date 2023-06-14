@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+a{
+  color: #121212;
+  text-decoration: none;
+}
+
+.favorite-site{
+  width: 250px;
+  padding: 12px;
+  background: linear-gradient(to bottom, #CCCCCC, #EEEEEE);
+  border: 2px solid rgb(168, 164, 164);
+  border-radius: 10px;
+}
+
+.site-header{
+  font-size: 12px;
+  padding-bottom: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.site-header span{
+  color: orangered;
+  padding-left: 3px;
+}
+
+.add-more{
+  font-size: 16px;
+}
+
+/* 리스트 스타일 */
+.sprite{
+  background: url(./images/rank.png) no-repeat;
+}
+
+.site-list{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.site-list li{
+  padding: 4px 0;
+}
+
+.site-list li::before{
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background: rgb(172, 168, 168);
+  text-align: center;
+  padding: 4px;
+  color: #fff;
+  margin-right: 4px;
+}
+
+.site-list li:first-child::before{
+  content: '1';
+}
+
+.site-list li:nth-child(2):before{
+  content: '2';
+}
+
+.site-list li:nth-child(3)::before{
+  content: '3';
+}
+
+.site-list li:nth-child(4)::before{
+  content: '4';
+}
+.first-list{
+  background-position: right 10px;
+}
+
+.second-list{
+  background-position: right -33px;
+}
+
+.third-list{
+  height: 34px;
+  background-position: right -10px;
+}
+
+.forth-list{
+  background-position: right 10px;
+}
