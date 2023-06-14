@@ -11,6 +11,7 @@ a{
 }
 
 .favorite-site{
+  margin: 30px;
   width: 250px;
   padding: 12px;
   background: linear-gradient(to bottom, #CCCCCC, #EEEEEE);
